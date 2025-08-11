@@ -1,0 +1,28 @@
+{
+  "name": "codebase-analyzer",
+  "version": "1.0",
+  "description": "ESLINT Codebase Static Analyzer",
+  "main": "codebase-analyzer.js",
+  "type": "module",
+  "scripts": {
+    "start": "node codebase-analyzer.js"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.28.0",
+    "@babel/traverse": "^7.28.0",
+    "eslint": "^8.57.1",
+    "espree": "^10.4.0",
+    "estraverse": "^5.3.0"
+  },
+  "keywords": [
+    "academic",
+    "static-analysis",
+    "mern",
+    "thesis",
+    "ieee-standards",
+    "cyclomatic-complexity",
+    "halstead-metrics"
+  ],
+  "author": "Georgios Latos & Joey Karlsson",
+  "license": "MIT"
+}
